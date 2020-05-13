@@ -1,0 +1,142 @@
+body{
+    margin: 0;/*网页上方不留白*/
+}
+/*body footer{
+    background-image: url(../img/a%20(12).jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: center;*/
+    
+}
+.wrapper .header{
+    border: 1px solid gray;
+    padding: 100%;
+    height: 25px;
+}
+.wrapper .header .logo{
+    font-size: 35px;/*字体大小*/
+    background-color: dimgrey;/*背景颜色*/
+    color: beige;/*字体颜色*/
+    padding: 10px;/*填充*/
+    font-weight: bolder;/*字体粗细*/
+}
+.header .nav{  /*展示栏*/
+    background-color: darkolivegreen;
+    overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
+    scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
+    
+}
+.header .nav a.index{/*自己介绍*/
+    background-color: orange;
+    }
+.header .nav a{/*展示栏其他项目*/
+    background-color:darkolivegreen;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    float: left;/*会使元素向左浮动*/
+    text-decoration: none;/*取消下划线*/
+    width: 160px;
+    text-align: center;
+}
+.header .nav a:hover{/*鼠标移动到展示栏各项，会变成橘色*/
+    background-color: orange;
+}
+#pics img{/*滚动图片*/
+    width: 100%;
+    text-decoration: none;
+}
+.name1{/*滚动图片下的自己介绍栏*/
+    font-size:30px;
+    border: 1px solid gray;
+    color:wheat;
+    background-color: dimgray;
+    padding-left: 10px;
+}
+.name2{/*自己PR栏*/
+    font-size:30px;
+    border: 1px solid gray;
+    color:wheat;
+    background-color: dimgray;
+    padding-left: 10px;
+}
+
+.footer .pane1{/*简历照片和自我介绍的内容部分*/
+      border: 1px solid gray;/*制作一个框架*/
+      display: inline-block;/*将对象呈递为内联对象，旁边的内联对象会被呈递在同一行内*/
+      text-indent: 60px;/*缩进*/
+      padding-top: 100px;/*填充上*/
+      padding-bottom: 100px;/*填充下*/
+}
+.footer .pane1 img{/*简历照片*/
+     float: left;/*浮动向左*/
+     width: 300px;/*宽*/
+     height: 406px;/*高*/
+     overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
+    scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
+     padding-right:50px ;/*填充右*/
+     padding-left: 60px;/*填充左*/
+}
+.footer .pane1 h3{/*自我介绍文字*/
+     overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
+    scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
+     padding-right: 60px;/*填充右*/
+     line-height: 40px;/*行高*/
+     font-size: large;/*字体大小*/
+     color: black;/*颜色*/
+}
+.footer .pane2{/*简历照片和自我介绍的内容部分*/
+     border: 1px solid gray;
+     display: inline-block;
+     text-indent: 60px;
+     padding-top: 100px;
+     padding-bottom: 100px;
+    
+}
+.footer .pane2 img{/*简历照片*/
+    float: left;
+    width: 300px;
+    height: 406px;
+    overflow: auto;
+    padding-right:50px ;
+    padding-left: 60px;
+}
+.footer .pane2 h3{/*自我介绍内容*/
+   overflow: auto;
+   padding-right: 60px;
+   line-height: 40px;
+   font-size: large;
+   color: black;
+    
+}
+.footer .pane3{/*底部位置部分*/
+    border: 1px solid beige;
+    width: 100%;
+    float: right;
+    height: 50px;
+    display: inline-block;
+    background-color: gray;
+    padding-bottom: 10px;
+}
+.footer .pane3 h2{/*喜欢就点赞内容*/
+    background-color: gray;
+    overflow: auto;
+    color: wheat;
+}
+.footer .pane3 img{/*猫咪头像*/
+    float: left;
+    overflow: auto;
+    width: 50px;
+    height: 50px;
+    padding-right:20px ;
+    padding-left:20px ;
+    padding-top: 5px;
+}
+.footer .pane3  h3{
+    color: #808080;
+}
+
+#btnlike{
+    width: 100%;/*宽与容器同步*/
+    font-size: 30px;/*字体大小*/
+}

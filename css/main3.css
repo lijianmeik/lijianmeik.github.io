@@ -1,0 +1,22 @@
+#wrapper .header h2{
+    border: 2px solid beige;
+    font-size: 30px;
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
+}
+#wrapper .main h2{
+    border: 2px solid beige;
+    font-size: 30px;
+    background-color: gray;
+    color: white;
+}
+
+
+#wrapper .main .pane1 img{/*简历照片*/
+     border: 10px solid #FFFFFF;
+     overflow:auto ;
+     width: 400px;/*宽*/
+     height: 280px;/*高*/
+     
+}
