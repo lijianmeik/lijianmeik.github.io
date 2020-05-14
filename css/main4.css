@@ -84,7 +84,8 @@ bady{
 .pane2 embed{
 	border: 10px solid gray;/*制作一个框架*/
     background-color:beige ;/*框架内背景颜色*/
-	padding-left:30px;
+	padding-left:60px;
+	padding-right:60px;
 }
 
 
