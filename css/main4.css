@@ -20,15 +20,15 @@ bady{
      font-size: large;/*字体大小*/
 	 padding-left:30px;
 	 padding-right:30px;
-	 width:100%;
+	 
 }
 .main .pane img{
-	width:100%;
+	width:95%;
 	height:20%;
 	 border: 2px solid beige;
 	 overflow:auto;
 	 padding-left:45px;
-	 padding-right:45px;
+	 padding-right:90px;
 }
 .wrapper .main pane1{
     border: 1px solid rad;/*制作一个框架*/
