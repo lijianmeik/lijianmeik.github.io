@@ -8,6 +8,7 @@ bady{
     color: white;
 	height:40px;
 	padding-left:10px;
+	width:100%;
 }
 
 .main .pane h3{/*自我介绍文字*/
@@ -19,6 +20,7 @@ bady{
      font-size: large;/*字体大小*/
 	 padding-left:30px;
 	 padding-right:30px;
+	 width:100%;
 }
 .main .pane img{
 	width:100%;
@@ -35,6 +37,7 @@ bady{
     text-indent: 60px;/*缩进*/
     padding-top: 100px;/*填充上*/
     padding-bottom: 100px;/*填充下*/
+	width:100%;
 }
 .main .pane1 img{/*简历照片*/
      float: left;/*浮动向左*/
@@ -60,6 +63,7 @@ bady{
     color: white;
 	height:40px;
 	padding-left:10px;
+	width:100%;
 }
 .pane2 h3{
 	 border: 2px solid beige;
@@ -67,6 +71,7 @@ bady{
     color: white;
 	height:30px;
 	padding-left:10px;
+	width:100%;
 }
 .pane2 img{
 	border: 10px solid gray;/*制作一个框架*/
