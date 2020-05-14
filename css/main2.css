@@ -1,11 +1,11 @@
-#wrapper .header h2{
+.wrapper .header h2{
     border: 2px solid beige;
     font-size: 30px;
     background-color: gray;
     color: white;
     padding-left: 10px;
 }
-#wrapper .main h2{
+.wrapper .main h2{
     border: 2px solid beige;
     font-size: 30px;
     background-color: gray;
@@ -13,7 +13,7 @@
     padding-left: 10px;
 } 
 
-#wrapper .main pane1{
+.wrapper .main pane1{
     border: 1px solid gray;/*制作一个框架*/
     display: inline-block;/*将对象呈递为内联对象，旁边的内联对象会被呈递在同一行内*/
     background-color:beige ;/*框架内背景颜色*/
@@ -37,7 +37,7 @@
      line-height: 25px;/*行高*/
      font-size: large;/*字体大小*/
 }
-#wrapper .main pane2{
+.wrapper .main pane2{
     border: 1px solid gray;/*制作一个框架*/
     display: inline-block;/*将对象呈递为内联对象，旁边的内联对象会被呈递在同一行内*/
     background-color:beige ;/*框架内背景颜色*/
@@ -62,7 +62,7 @@
      line-height: 40px;/*行高*/
      font-size: large;/*字体大小*/
 }
-#wrapper .footer h2{
+.wrapper .footer h2{
     border: 1px solid beige;
     overflow: auto;
     background-color: gray;
@@ -70,4 +70,11 @@
     padding-left: 10px;
     padding-top: 20px;
     line-height: 10px;
+}
+.footer h3{
+	 border: 2px solid beige;
+    background-color: gray;
+    color: white;
+	height:30px;
+	padding-left:10px;
 }

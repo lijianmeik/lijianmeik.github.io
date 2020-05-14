@@ -1,11 +1,11 @@
-#wrapper .header h2{
+.wrapper .header h2{
     border: 2px solid beige;
     font-size: 30px;
     background-color: gray;
     color: white;
     padding-left: 10px;
 }
-#wrapper .main h2{
+.wrapper .main h2{
     border: 2px solid beige;
     font-size: 30px;
     background-color: gray;
@@ -13,10 +13,17 @@
 }
 
 
-#wrapper .main .pane1 img{/*简历照片*/
+.wrapper .main .pane1 img{/*简历照片*/
      border: 10px solid #FFFFFF;
      overflow:auto ;
      width: 400px;/*宽*/
      height: 280px;/*高*/
      
+}
+.pane1 h3{
+	 border: 2px solid beige;
+    background-color: gray;
+    color: white;
+	height:30px;
+	padding-left:10px;
 }
