@@ -23,8 +23,8 @@ body{
 }
 .main .pane img{
 	border:2px solid beige;
-	width:1600px;
-	height:800px;
+	width:80%;
+	height:10%;
 	padding-left:150px;
 }
 .wrapper .main .name2 h2{
