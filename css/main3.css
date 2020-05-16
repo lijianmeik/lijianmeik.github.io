@@ -16,8 +16,8 @@
 .wrapper .main .pane1 img{/*简历照片*/
      border: 10px solid #FFFFFF;
      overflow:auto ;
-     width: 400px;/*宽*/
-     height: 280px;/*高*/
+     width: 380px;/*宽*/
+     height: 260px;/*高*/
      
 }
 .pane1 h3{

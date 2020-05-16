@@ -45,7 +45,7 @@ bady{
      height: 300px;/*高*/
      overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
-     padding-right:50px ;/*填充右*/
+    margin-right:50px ;/*填充右*/
      padding-left: 60px;/*填充左*/
 }
 .main .pane1 h3{/*自我介绍文字*/
@@ -79,13 +79,13 @@ bady{
     background-color:beige ;/*框架内背景颜色*/
     height:500px;
 	width:400px;
-	padding-left:30px
+	margin-left:30px
 }
 .pane2 embed{
 	border: 10px solid gray;/*制作一个框架*/
     background-color:beige ;/*框架内背景颜色*/
-	padding-left:60px;
-	padding-right:60px;
+	margin-left:60px;
+	
 }
 
 
