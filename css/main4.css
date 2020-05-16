@@ -79,13 +79,13 @@ body{
      overflow:auto ;
      width: 360px;/*宽*/
      height: 500px;/*高*/
-     margin-left:100px;
+     margin-left:60px;
 }
 .wrapper .main .pane2 embed{
 	border: 10px solid #FFFFFF;
      overflow:auto ;
      width: 1040px;/*宽*/
      height: 600px;/*高*/
-     margin-left:100px;
+     margin-left:60px;
 }
 
