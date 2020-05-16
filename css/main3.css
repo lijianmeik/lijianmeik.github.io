@@ -12,7 +12,13 @@
     color: white;
 	padding-left:10px;
 }
-
+.wrapper .footer h2{
+    border: 2px solid beige;
+    font-size: 30px;
+    background-color: gray;
+    color: white;
+	padding-left:10px;
+}
 
 .wrapper .main .pane1 img{/*简历照片*/
      border: 10px solid #FFFFFF;
