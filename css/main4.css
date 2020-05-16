@@ -1,91 +1,87 @@
-bady{
-	width:100%;
+html{
+	overflow-x:hidden;
+	overflow-y:auto;
 }
-.wrapper .main h2 {
-	 border: 2px solid beige;
+body{
+	width:100vw;
+	overflow:hidden;
+	padding-left:calc(100vw-100%);
+}
+.wrapper .main .name1 h2{
+	border: 2px solid beige;
     font-size: 30px;
     background-color: gray;
     color: white;
-	height:40px;
-	padding-left:10px;
-	width:100%;
+    padding-left: 10px;
 }
-
 .main .pane h3{/*自我介绍文字*/
-     border:2px  solid beige;
      overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
-     text-indent:40px;
-     line-height: 40px;/*行高*/
-     font-size: large;/*字体大小*/
-	 padding-left:30px;
+     padding-left:10px;
 	 padding-right:30px;
-	 
+     line-height: 35px;/*行高*/
 }
 .main .pane img{
-	width:95%;
-	height:20%;
-	 border: 2px solid beige;
-	 overflow:auto;
-	 padding-left:45px;
-	 padding-right:90px;
+	border:2px solid beige;
+	width:1600px;
+	height:800px;
+	padding-left:150px;
+}
+.wrapper .main .name2 h2{
+	border: 2px solid beige;
+    font-size: 30px;
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
 }
 .wrapper .main pane1{
-    border: 1px solid rad;/*制作一个框架*/
+    border: 1px solid gray;/*制作一个框架*/
     display: inline-block;/*将对象呈递为内联对象，旁边的内联对象会被呈递在同一行内*/
     background-color:beige ;/*框架内背景颜色*/
     text-indent: 60px;/*缩进*/
     padding-top: 100px;/*填充上*/
     padding-bottom: 100px;/*填充下*/
-	width:100%;
 }
 .main .pane1 img{/*简历照片*/
      float: left;/*浮动向左*/
-     width: 450px;/*宽*/
-     height: 300px;/*高*/
+     width: 200px;/*宽*/
+     height: 200px;/*高*/
      overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
-    margin-right:50px ;/*填充右*/
+     padding-right:50px ;/*填充右*/
      padding-left: 60px;/*填充左*/
 }
 .main .pane1 h3{/*自我介绍文字*/
      overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
      padding-right: 60px;/*填充右*/
-     line-height: 40px;/*行高*/
-     font-size: large;/*字体大小*/
-	 height:350px;
+     line-height: 35px;/*行高*/
 }
-.wrapper .footer h2 {
-	 border: 2px solid beige;
+.wrapper .main .name3 h2{
+	border: 2px solid beige;
     font-size: 30px;
     background-color: gray;
     color: white;
-	height:40px;
-	padding-left:10px;
-	width:100%;
+    padding-left: 10px;
 }
-.pane2 h3{
-	 border: 2px solid beige;
+.wrapper .main .pane2 h3{
+	border: 2px solid beige;
     background-color: gray;
     color: white;
-	height:30px;
-	padding-left:10px;
-	width:100%;
+    padding-left: 10px;
 }
-.pane2 img{
-	border: 10px solid gray;/*制作一个框架*/
-    display: inline-block;/*将对象呈递为内联对象，旁边的内联对象会被呈递在同一行内*/
-    background-color:beige ;/*框架内背景颜色*/
-    height:500px;
-	width:400px;
-	margin-left:30px
+.wrapper .main .pane2 img{
+	 border: 10px solid #FFFFFF;
+     overflow:auto ;
+     width: 360px;/*宽*/
+     height: 500px;/*高*/
+     margin-left:100px;
 }
-.pane2 embed{
-	border: 10px solid gray;/*制作一个框架*/
-    background-color:beige ;/*框架内背景颜色*/
-	margin-left:60px;
-	margin-right:60px;
+.wrapper .main .pane2 embed{
+	border: 10px solid #FFFFFF;
+     overflow:auto ;
+     width: 1040px;/*宽*/
+     height: 500px;/*高*/
+     margin-left:100px;
 }
-
 

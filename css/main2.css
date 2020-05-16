@@ -35,7 +35,6 @@
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
      padding-right: 60px;/*填充右*/
      line-height: 35px;/*行高*/
-     font-size: large;/*字体大小*/
 }
 .wrapper .main pane2{
     border: 1px solid gray;/*制作一个框架*/
@@ -60,7 +59,6 @@
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
      padding-right: 60px;/*填充右*/
      line-height: 35px;/*行高*/
-     font-size: large;/*字体大小*/
 }
 .wrapper .footer h2{
     border: 1px solid beige;
