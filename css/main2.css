@@ -34,7 +34,7 @@
      overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
      padding-right: 60px;/*填充右*/
-     line-height: 25px;/*行高*/
+     line-height: 35px;/*行高*/
      font-size: large;/*字体大小*/
 }
 .wrapper .main pane2{
@@ -59,7 +59,7 @@
      overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
     scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
      padding-right: 60px;/*填充右*/
-     line-height: 40px;/*行高*/
+     line-height: 35px;/*行高*/
      font-size: large;/*字体大小*/
 }
 .wrapper .footer h2{
