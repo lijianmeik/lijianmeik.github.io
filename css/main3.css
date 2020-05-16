@@ -10,6 +10,7 @@
     font-size: 30px;
     background-color: gray;
     color: white;
+	padding-left:10px;
 }
 
 
@@ -18,7 +19,7 @@
      overflow:auto ;
      width: 380px;/*宽*/
      height: 260px;/*高*/
-     margin-left:30px
+     margin-left:30px;
 }
 .pane1 h3{
 	 border: 2px solid beige;
