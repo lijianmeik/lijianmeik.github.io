@@ -22,11 +22,12 @@ body{
      line-height: 35px;/*行高*/
 }
 .main .pane img{
-	border:2px solid beige;
+	border:2px solid white;
 	width:80%;
 	height:10%;
 	padding-left:60px;
 	padding-right:60px;
+	margin-left:10px
 }
 .wrapper .main .name2 h2{
 	border: 2px solid beige;
@@ -84,8 +85,8 @@ body{
 .wrapper .main .pane2 embed{
 	border: 10px solid #FFFFFF;
      overflow:auto ;
-     width: 60%;/*宽*/
-     height: 15%px;/*高*/
+     width: 800;/*宽*/
+     height: 600px;/*高*/
      margin-left:60px;
 	 margin-right:60px;
 }
