@@ -25,8 +25,8 @@ body{
 	border:2px solid beige;
 	width:80%;
 	height:10%;
-	padding-left:150px;
-	padding-right:150px;
+	padding-left:60px;
+	padding-right:60px;
 }
 .wrapper .main .name2 h2{
 	border: 2px solid beige;
@@ -55,11 +55,10 @@ body{
 }
 .main .pane1 h3{/*自我介绍文字*/
      border:2px soild beige;
-	 height:410px;
-     overflow: auto;/*如果它溢出了元素的内容区，来判断左右边缘是否裁剪，visible，不裁剪内容科能会显示在内容框之外。hidden，裁剪内容-不提供滚动机制。
-    scroll，裁剪内容提供滚动机制。auto，如果溢出框则应该提供滚动机制。no-display,如果内容不适合内容框则删除整个框。*/
+	 height:500px;
      padding-right: 60px;/*填充右*/
      line-height: 35px;/*行高*/
+	 padding-left:10px;
 }
 .wrapper .main .name3 h2{
 	border: 2px solid beige;
